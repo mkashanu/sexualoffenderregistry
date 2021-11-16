@@ -1,0 +1,38 @@
+.box-field{
+	padding: 5px 15px 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	bottom: 10px;
+	margin-bottom: 1px;
+	border-left: 1px;
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #E5E4E2;
+	width: 25%;
+	height: 350px;
+	position: center;
+	margin-left: 650px;
+	margin-top: 100px;
+}
+.btn-primary{
+	color: #fff;
+	background-color: #555;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	left: 50%;
+	top: 50%
+	
+}
+input{
+	width: 97%;
+	height: 25px;
+}

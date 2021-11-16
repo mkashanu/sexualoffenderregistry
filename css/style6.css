@@ -1,0 +1,41 @@
+
+.therapy{
+    width: 50%;
+    margin-left: 480px;
+    background-color: #fdfdfd;
+    padding: 30px;
+	font-size: 14px;
+    border: 1px solid #ccc;
+	border-radius: 15px;
+	margin-top: 100px;
+	
+}
+a{
+	color: #000000;
+}
+a:visited 
+{
+    text-decoration: none; 
+    decoration: none; 
+	color: #000000;
+}
+a:hover {
+ color: #555;
+}
+
+button {
+	
+	background: #E5E4E2;
+	color: #fff;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: none;
+	width: 30%;
+	height: 20px;
+	border: 1px solid #ccc;
+	
+}
+
+
+
+

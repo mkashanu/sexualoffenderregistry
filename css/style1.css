@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: sans-serif;
+  user-select: none;
+  background: #fff;
+}
+.container{
+	 scrollbar-width: none; 
+}
+::-webkit-scrollbar {
+    display: none;
+}
+nav .logo{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 110px;
+}
+nav{
+  height: 50px;
+  background: #E5E4E2;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: black;
+  display: block;
+  padding: 0 15px;
+  line-height: 50px;
+  font-size: 15px;
+  background: #E5E4E2;
+  transition: .5s;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color: #555;
+}
+nav ul ul{
+  position: absolute;
+  top: 50px;
+  border-top: 3px solid #555;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 50px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 150px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #555;
+  border-top: none;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+nav ul ul li a i{
+  margin-left: 45px;
+}
+.boxed{
+	border: 1 px black;
+}
+
+
